@@ -14,10 +14,10 @@ for hostname in ips:
         resultoff.append("Down "+hostname)
 
 txtoff = open("resultoff.txt","w")
-txtoff.write("LISTA DE HOST CTG OFFLINE" + "\n")
+txtoff.write("OFFLINE HOST LIST" + "\n")
 txtoff.writelines(resultoff)
 
 
 txton = open("resulton.txt","w")
-txton.write("LISTA DE HOST CTG ONLINE" + "\n")
+txton.write("ONLINE HOST LIST" + "\n")
 txton.writelines(resulton)
